@@ -8,7 +8,7 @@ class Program {
         } else {
             while(true) {
                 Console.Write("Please enter a path: ");
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
 
                 if(Directory.Exists(input)) {
                     path = input;
